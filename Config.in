@@ -1,0 +1,17 @@
+menu "Udpcast"
+
+source udpcast/dialog/Config.in
+
+config UDPRECEIVER
+	bool "UDPRECEIVER"
+	default y
+	help
+	  Udpcast receiver
+
+config UDPSENDER
+	bool "UDPSENDER"
+	default y
+	help
+	  Udpcast sender
+
+endmenu

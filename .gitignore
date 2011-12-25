@@ -1,0 +1,5 @@
+*.o
+udp-senderx
+Makefile
+config.status
+config.h
